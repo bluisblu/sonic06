@@ -55,6 +55,9 @@ int __fpclassifyd(double);
 #define isunordered(x, y)
 */
 
+// intrinsic assumed from how lua uses it
+#define sqrt __fsqrt
+
 #define MATH_ERRNO 1
 #define MATH_ERREXCEPT 2
 #define math_errhandling (MATH_ERRNO | MATH_ERREXCEPT)
