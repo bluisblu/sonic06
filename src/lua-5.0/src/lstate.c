@@ -45,6 +45,12 @@ static int default_panic (lua_State *L) {
 }
 
 
+// Sonic 06: to be implemented in another TU
+static int panic_82AD0700 (lua_State *L) {
+  UNUSED(L);
+  return 0;
+}
+
 static lua_State *mallocstate (lua_State *L) {
   lu_byte *block = (lu_byte *)luaM_malloc(L, sizeof(lua_State) + EXTRASPACE);
   if (block == NULL) return NULL;
@@ -100,7 +106,7 @@ static void f_luaopen (lua_State *L, void *ud) {
   setnilvalue(defaultmeta(L));
   setnilvalue(registry(L));
   luaZ_initbuffer(L, &g->buff);
-  g->panic = default_panic;
+  g->panic = panic_82AD0700;
   g->rootgc = NULL;
   g->rootudata = NULL;
   g->tmudata = NULL;
