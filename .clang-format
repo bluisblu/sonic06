@@ -1,4 +1,9 @@
 ---
 Language: Cpp
 BasedOnStyle: LLVM
+AccessModifierOffset: -4
+TabWidth: 4
 IndentWidth: 4
+Standard: c++03
+UseCRLF: false
+UseTab: Always
