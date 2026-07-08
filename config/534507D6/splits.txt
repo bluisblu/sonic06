@@ -19,7 +19,7 @@ Main.cpp:
 	.text       start:0x8238BFD0 end:0x8238C248
 
 lua-5.0/src/lapi.c:
-	.rdata      start:0x82048D20 end:0x82048DC4
+	.rdata      start:0x82048D18 end:0x82048DC4
 	.pdata      start:0x821394C8 end:0x82139610
 	.text       start:0x825D4F40 end:0x825D62F8
 
