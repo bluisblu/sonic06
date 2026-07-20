@@ -7,6 +7,14 @@
             "Main.cpp": "NonMatching"
         }
     },
+    "SoX": {
+        "progress_category": "game",
+        "mw_version": "X360/14.00.2110",
+        "cflags": "base",
+        "objects": {
+            "SoX/Scenery/Light.cpp": "NonMatching"
+        }
+    },
     "lua": {
         "progress_category": "lua",
         "mw_version": "X360/14.00.2110",

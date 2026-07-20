@@ -15,12 +15,17 @@ Sections:
 	.reloc      type:data align:65536
 
 Main.cpp:
-	.pdata      start:0x82129740 end:0x82129748
-	.text       start:0x8238BFD0 end:0x8238C248
+	.pdata      start:0x82129738 end:0x82129748
+	.text       start:0x8238BF58 end:0x8238C248
+	.text       start:0x82AE8250 end:0x82AE8260
 
 xdk/d3d9/debug.cpp:
 	.pdata      start:0x82135C30 end:0x82135C60
 	.text       start:0x82540A28 end:0x82541120
+
+SoX/Scenery/Light.cpp:
+	.pdata      start:0x82137C78 end:0x82137CA0
+	.text       start:0x8259D200 end:0x8259D560
 
 lua-5.0/src/lapi.c:
 	.rdata      start:0x82048D18 end:0x82048DC4

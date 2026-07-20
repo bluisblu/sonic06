@@ -26,6 +26,7 @@
         "lua": {
             "base": "base",
             "flags": [
+                "/O1",
                 "/I src/lua-5.0/include/",
                 "-DBUFSIZ=512"
             ]
